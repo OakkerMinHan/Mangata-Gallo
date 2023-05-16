@@ -1,0 +1,211 @@
+@import url(//db.onlinewebfonts.com/c/8426a04cc01b52b246b8a8e01d168356?family=Acta+Display);
+
+@font-face {font-family: "Acta Display"; src: url("//db.onlinewebfonts.com/t/8426a04cc01b52b246b8a8e01d168356.eot"); src: url("//db.onlinewebfonts.com/t/8426a04cc01b52b246b8a8e01d168356.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8426a04cc01b52b246b8a8e01d168356.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8426a04cc01b52b246b8a8e01d168356.woff") format("woff"), url("//db.onlinewebfonts.com/t/8426a04cc01b52b246b8a8e01d168356.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8426a04cc01b52b246b8a8e01d168356.svg#Acta Display") format("svg"); }
+
+@import url(//db.onlinewebfonts.com/c/251039e6849ad977a8bfc40b564dce89?family=Didot);
+
+@font-face {font-family: "Didot"; src: url("//db.onlinewebfonts.com/t/251039e6849ad977a8bfc40b564dce89.eot"); src: url("//db.onlinewebfonts.com/t/251039e6849ad977a8bfc40b564dce89.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/251039e6849ad977a8bfc40b564dce89.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/251039e6849ad977a8bfc40b564dce89.woff") format("woff"), url("//db.onlinewebfonts.com/t/251039e6849ad977a8bfc40b564dce89.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/251039e6849ad977a8bfc40b564dce89.svg#Didot") format("svg"); }
+
+body {
+    font-family: 'Acta Display Book',serif;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 0 0 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header{
+    box-sizing: border-box;
+    width: 100%;
+    align-content: center;
+    padding: 1.3rem 0 1.3rem 0;
+    background-color: rgb(250,242,227);
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18.7rem;
+    height: 2.1rem;
+}
+
+nav{
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.rem;
+    color: rgb(250,242,227);
+    margin: .7rem 1rem .7rem 1rem;
+    padding: 0 2rem 0 2rem;
+    font-family: 'Acta Display Book','Didot',serif;
+}
+
+a:hover{
+    text-shadow: 1px 1px 2px rgb(250, 242, 231), 0 0 5px rgb(219, 215, 217);;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article{
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: rgb(250,242,227);
+    border-top: .2rem solid rgb(250, 242, 231);
+    font-family: 'Acta Display Book',serif;
+}
+
+footer div {
+    padding: .2rem 1rem .2rem 1rem;
+}
+
+div > img {
+    width: 5rem;
+    height: 2.4rem;
+}
+
+main {
+    background-color: rgb(242, 217, 227);
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    text-align: center;
+}
+
+#banner {
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 2rem auto 2rem auto;
+    border-radius: 3rem;
+    background-image: url(https://www.vam.ac.uk/on/demandware.static/-/Sites-VAM_Storefront/default/dw88c1556f/images/category/jewellery/jewellery_homepage_desktop.jpg);
+    background-size: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 50rem;
+    min-height: 12rem;
+    max-height: auto;
+    text-decoration: none;
+    transition: transform .2s;
+}
+
+.ban_class{
+    margin: 0 1rem 0 1rem;
+}
+
+#banner article{
+    margin: 1rem;
+}
+
+h1 {
+    color: rgb(250,242,227);
+    text-shadow: 0.125rem 0.125rem 0.5rem rgb(14,2,2);
+    margin: 1rem 0 0 0;
+}
+
+h1 + p {
+    color: rgb(250, 242, 227);
+    text-shadow: 2px 2px 4px #000000;;
+    background-color: rgba(106, 77, 38, 0.345);
+    border-radius: .4rem;
+    padding: 0 .2rem 0 .2rem;
+    margin-top: 4rem;
+}
+
+#banner:hover {
+    transform: scale(1.03);
+}
+
+@media only screen and (max-width:600px) {
+    #banner{
+        max-height: 22rem;
+        margin-top: 1rem;
+    }
+    header > img{
+        width: 12rem;
+        height: 1.4rem;
+    }
+}
+
+section{
+    padding-bottom: 1rem;
+}
+
+.columns {
+    background-color: rgb(242, 217, 227);
+}
+
+.columns article {
+    padding: 0 1rem 0 1rem;
+    margin: 0 2rem 1rem 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    background-color: rgb(250, 242, 231);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    max-width: 20.6rem;
+}
+
+h2 ~ img {
+    min-width: 12rem;
+    max-height: 10rem;
+    padding: 0 1rem 0 1rem;
+    border-radius: 2rem;
+    border: .2rem solid rgb(250, 242, 231);
+}
+
+h2 ~ p {
+    text-align: left;
+    margin: 1rem;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    padding: .5rem;
+}
+
+h2 {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0 .5rem 0 .5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Poppins';
+}
+p a {
+    text-decoration: none;
+    color: rgb(24, 21, 17);
+    text-shadow: 0.125rem 0.125rem 0.5rem rgb(14,2,2);
+}
+
+p a:hover{
+    color: rgb(255, 255, 254);
+    text-shadow: 0.125rem 0.125rem 0.5rem rgb(14,2,2);;
+}
